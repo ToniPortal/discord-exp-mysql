@@ -1,6 +1,6 @@
 {
   "name": "discord-exp-mysql",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A module using discord.js and canvas that allows you to easily make an experience system for your discord bot.",
   "main": "index.js",
   "scripts": {
