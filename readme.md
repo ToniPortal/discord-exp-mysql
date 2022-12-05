@@ -10,14 +10,16 @@ Don't forget to modify config.json with your auth mysql(The file is in module)
 ```js
 var expdiscord = require('discord-exp')
 
-     client.on('messageCreate', (message) => {
+client.on('messageCreate', (message) => {
     if (message.author.id === client.user.id || message.author.bot || message.author.equals(client.user)) return;
 
-    expdiscord.verify(message)
+    let id = message.author.id;
+
+    expdiscord.verify(id)
     if (message.content == "*exp") {
         console.log("Commande exp")
 
-        expdiscord.getexp(message).then(function (result) {
+        expdiscord.getexp(id).then(function (result) {
 
                 const embed = {
                     color: 0x0099ff,
