@@ -21,5 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "mysql": "^2.18.1"
+  },
+  "publishConfig": {
+    "@bouftout:registry": "https://npm.pkg.github.com"
   }
 }
