@@ -1,5 +1,5 @@
 {
-  "name": "discord-exp-mysql",
+  "name": "@Bouftout/discord-exp-mysql",
   "version": "1.1.1",
   "description": "A module using discord.js and canvas that allows you to easily make an experience system for your discord bot.",
   "main": "index.js",
@@ -23,6 +23,6 @@
     "mysql": "^2.18.1"
   },
   "publishConfig": {
-    "@bouftout:registry": "https://npm.pkg.github.com"
+    "@Bouftout:registry": "https://npm.pkg.github.com"
   }
 }
