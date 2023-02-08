@@ -12,7 +12,7 @@ const connection = mysql.createConnection({ //connection bdd
 
 connection.connect(function (err) {
     if (err) throw err;
-    console.log("Connected in database! (module discord-exp-");
+    console.log("Connected in database! (module discord-exp-mysql)");
 });
 
 
